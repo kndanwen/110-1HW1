@@ -13,8 +13,8 @@ namespace _110_1HW1
         {
             double d_Value = 3.982;
             double d_Value2 = 0;
-            d_Value2 = d_Value * d_Value / 3.3058;
-            Response.Write("d_Value =" + d_Value * d_Value + "= " + d_Value2);
+            d_Value2 = d_Value * d_Value * 0.3025;
+            Response.Write("d_Value =" + d_Value+ "*" + d_Value + "= " + d_Value2);
         }
     }
 }
